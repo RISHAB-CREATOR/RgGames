@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="sl-theme-dark" lang="en">
+  <head>
+    <!-- initialize theme vars
+    https://coolors.co/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff -->
+
+    <!-- initialize externals -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
+    
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/themes/dark.css" />
+     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
+
+
+    <!-- initialize my stuff -->
+    <script src="/js/themes.js"></script>
+    <script src="/js/all.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/randomquote.js"></script>
+    <link rel="stylesheet" href="/themes.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- seo + other things -->
+    <title>Bookmarklets | Selenite</title>
+    <link rel="icon" href="/favicon.ico" />
+    <meta
+      name="keywords"
+      content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git, gaming, internet, website, best, site, cool, free games"
+    />
+    <meta property="og:title" content="Welcome to Selenite." />
+    <meta property="og:site_name" content="https://selenite.cc" />
+    <meta
+      property="og:description"
+      content="Welcome to the one and only option for unblocked games. Welcome to Selenite."
+    />
+    <meta
+      name="description"
+      content="Welcome to the one and only option for unblocked games. Welcome to Selenite."
+    />
+    <meta name="author" content="Website Creator" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- toastify -->
+    <script></script>
+  </head>
+
+  <body>
+    <header>
+      <a href="/index.html">Home</a>
+      <a href="/bookmarklets.html">Bookmarklets</a>
+            <a href="/projects.html">Games</a>
+      <a href="/settings.html">Settings</a>
+      <a href="/support.html">Support</a>
+      <a href="/blank.html">Open Blank</a>
+      <a href="/about.html">About</a>
+      
+    </header>
+
+    <main id="main">
+      <h1>Bookmarklets</h1>
+      <h2>Official Selenite Bookmarklets</h2>
+      <div id="bookmarklets">
+      <div class="bookmarkletdiv">
+        <a href="javascript:var s = document.createElement('script');document.body.appendChild(s);s.src='https://cdn.jsdelivr.net/gh/skysthelimitt/selenite/js/savedownload.min.js';void(0);">Selenite Save Utility</a>
+        <p>This is the official Selenite Save Utility, which allows you to download your data from any website easily.</p>
+      </div>
+      <div class="bookmarkletdiv">
+        <a class="bookmarklet" href="javascript:var s = document.createElement('script');document.body.appendChild(s);s.src='https://cdn.jsdelivr.net/gh/skysthelimitt/selenite/js/uploaddownload.min.js';void(0);">Selenite Upload Utility</a>
+        <p>This is the official Selenite Upload Utility, which allows you to upload a Selenite save file to any website easily.</p>
+      </div>
+      <div class="bookmarkletdiv">
+      <a class="seleniteminified bookmarklet">Selenite Minified</a>
+      <p>This is a minified version of Selenite, that you can open at any time, without relying on a single website.</p>
+      </div>
+      <div class="bookmarkletdiv">
+        <a href="javascript:(function () {var a = document.createElement('script');a.src = 'data:text/javascript;base64,dmFyIGw9ZG9jdW1lbnQucXVlcnlTZWxlY3RvcigibGlua1tyZWwqPSdpY29uJ10iKXx8ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgibGluayIpO2wudHlwZT0iaW1hZ2UveC1pY29uIixsLnJlbD0ic2hvcnRjdXQgaWNvbiI7dmFyIGM9cHJvbXB0KCJTZWxlY3QgYSB0YWIgY2xvYWtcbjEuIENhbnZhc1xuMi4gZS1oYWxscGFzc1xuMy4gTmV3IFRhYiIpOzE9PWM/KGwuaHJlZj0iaHR0cHM6Ly9oYXJyaXNvbmJ1cmcuaW5zdHJ1Y3R1cmUuY29tL2Zhdmljb24uaWNvIixkb2N1bWVudC50aXRsZT0iRGFzaGJvYXJkIik6Mj09Yz8obC5ocmVmPSJodHRwczovL2VkdXNwaXJlc29sdXRpb25zLm9yZy93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8wOS9jcm9wcGVkLWZhdmljb24tMjcweDI3MC0xLTE1MHgxNTAucG5nIixkb2N1bWVudC50aXRsZT0iRGlnaXRhbCBIYWxsIFBhc3MgfCBlLUhhbGwgUGFzcyB8IEVkdXNwaXJlIFNvbHV0aW9ucyIpOjM9PWMmJihsLmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQkFBQUFBUUNBWUFBQUFmOC85aEFBQUEvVWxFUVZSNDJxMlMwUTNDTUF4RUdZRVJHSUZQMUZKMEpFWGlrdzFnQTlnQU5xQWJ3Q2FNd0FnZG9TTkFIcFZSRTdVSUlTS2QxRHErczMzTzZPOUgwbmd1ZHl6azY3bjhvMFY1eitVdk02MG5IOGtMK1cwZ05KQUcwT1J5aDE1eUpyY2o2UnRRYUtqMVYvVlFoZmIzTTJreWhJZ2NrcXRXb0R4QkppSFRha29jMk96aC9vZ1hJT29Da3dxVlowUUsrUTJFeElzR1FlYTNXQkNwM3dJV0pLbjlYMVk5czFkMDFvMmxBdUQyazBDOGN5bVRwbVlvNEJ0eXZDbDM3M3B3NnM2R0J4RE1SQVRUUXNSN1YyZ2l1SXdJZDdhQnRLT3ZIaEpDNlZaeWxmMnZrVFhGbmJpNmpmdXJWUzVDb2RHblk3TmprcjBKWnNjbkcrZXY1d2wxQnVrcWM0Q0I3Z0FBQUFCSlJVNUVya0pnZ2c9PSIsZG9jdW1lbnQudGl0bGU9Ik5ldyBUYWIiKTs=';document.body.appendChild(a);}())" class="bookmarklet">The Ultimate Tab Cloak</a>
+        <p>Disguise any website you're on as Canvas, Desmos, or Google Drive!</p>
+      </div>
+      <h2>Other Bookmarklets</h2>
+      <div class="bookmarkletdiv">
+      <a href='javascript:console.log(document.body.contentEditable="true"==document.body.contentEditable?"false":"true");' class="bookmarklet">Edit any page</a>
+      <p>This allows you to edit the text of any webpage.</p>
+      </div>
+      <div class="bookmarkletdiv">
+      <a href="javascript:(function () {var script=document.createElement('script');script.src='https://x-ray-goggles.mouse.org/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://x-ray-goggles.mouse.org');document.body.appendChild(script);}())" class="bookmarklet">X-Ray Goggles</a>
+      <p>This allows you to view and edit the source code of any website, like a more powerful version of "Edit any page".</p>
+      </div>
+      <div class="bookmarkletdiv">
+      <a href="javascript:document.querySelectorAll('*').forEach(e=>e.setAttribute('style','background-color:#222;background-image:none;color:#'+(/^A|BU/.test(e.tagName)?'36c;text-decoration:underline;':'eee;')+e.getAttribute('style')))" class="bookmarklet">Dark Mode</a>
+      <p>This sets any page to dark mode.</p>
+      </div>
+      <div class="bookmarkletdiv">
+      <a href='javascript:void(document.head.appendChild(document.createElement("script")).src="https://cdn.jsdelivr.net/gh/Krazete/bookmarklets/piano.min.js")' class="bookmarklet">Piano</a>
+      <p>This adds a piano to the page.</p>
+      </div>
+      <div class="bookmarkletdiv">
+      <a href='javascript:(function()%7B(function() %7Bvar x %3D document.createElement("script")%3Bx.src %3D "https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FSnowLord7%2Fdevconsole%40master%2Fmain.js"%3Bx.onload %3D alert("Loaded Developer Console!")%3Bdocument.head.appendChild(x)%3B%7D)()%7D)()' class="bookmarklet">Developer Console</a>
+      <p>This adds all features of the developer console to whatever page your on.</p>
+      </div>
+      <div class="bookmarkletdiv">
+      <a href="javascript:var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='https://cdn.jsdelivr.net/gh/skysthelimitt/Selenite/js/asteroids.min.js';void(0);" class="bookmarklet">Asteroids</a>
+      <p>This allows you to play Asteroids on the website you are on, destroying everything.</p>
+      </div>
+      <div class="bookmarkletdiv">
+      <a href="javascript:var s = document.createElement('script');s.type='text/javascript';document.body.appendChild(s);s.src='https://cdn.jsdelivr.net/gh/skysthelimitt/Selenite/js/katamari.js';void(0);" class="bookmarklet">Katamari</a>
+      <p>This allows you to collect the words on the page into a ball. Fun game, I recommend playing it.</p>
+      </div>
+    </div>
+    </main>
+
+    <footer>
+      <a href="https://github.com/selenite-cc/Selenite">Source Code</a>
+      <a id="panicmode">Panic Mode</a>
+      <a href="/transfer.html">Transfer your data</a>
+      <a href="/suggest.html">Bug Reports</a>
+      <a href="https://discord.gg/7jyufnwJNf">Discord</a>
+      <a href="/suggest.html">Suggestions</a>
+      <a href="/contact.html">Contact</a>
+    </footer>
+  </body>
+</html>
