@@ -959,5 +959,50 @@
     "name": "MiniRoyale",
     "directory": "miniroyale",
     "image": "icon.png"
-  }
+  },
+  {
+    "name": "Plant Vs Zombie",
+    "directory": "plantvszombie",
+    "image": "icon.png"
+  },
+  {
+    "name": "Rally Point",
+    "directory": "rallypoint",
+    "image": "icon.png"
+  },
+  {
+    "name": "Roblox",
+    "directory": "roblox",
+    "image": "icon.png"
+  },
+  {
+    "name": "Shell Shocker",
+    "directory": "shellshocker",
+    "image": "icon.png"
+  },
+  {
+    "name": "Slither.io",
+    "directory": "slitherio",
+    "image": "icon.png"
+  },
+  {
+    "name": "Stumble Guys",
+    "directory": "astrodud",
+    "image": "icon.png"
+  },
+  {
+    "name": "Venge.io",
+    "directory": "vengeio",
+    "image": "icon.png"
+  },
+  {
+    "name": "Tanuki Sunset",
+    "directory": "tanukisunset",
+    "image": "icon.png"
+  },
+  {
+    "name": "Tekken 3",
+    "directory": "tekken3",
+    "image": "icon.png"
+  },
 ]
