@@ -203,7 +203,7 @@ async function checkblock() {
             console.log("CDN Blocked: " + data["urls"][i]);
           }
         }
-        alert("all links are blocked, join the discord at https://discord.gg/e34HMTgyEy and ping @RishabNotFound");
+        alert("all links are blocked, join the discord at https://discord.gg/7jyufnwJNf and ping @skysthelimit.dev");
       }
     }
   }

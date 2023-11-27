@@ -26,14 +26,14 @@ document.addEventListener('DOMContentLoaded', function() {
     document.body.setAttribute("theme", "main");
   }
   if(document.querySelector("widgetbot-crate")) {
-    if(localStorage.getItem("selenite.discordIcon") == "false") {
+    if(localStorage.getItem("selenite.discordIcon") == "true") {
       const widget = document.querySelector("widgetbot-crate");
       widget.setAttribute("style", "display:none");
     }
   }
   if(document.querySelector("input#discordIcon")) {
-    if(localStorage.getItem("selenite.discordIcon") == "false") {
-      iconSetting.checked = false;
+    if(localStorage.getItem("selenite.discordIcon") == "true") {
+      iconSetting.checked = true;
     }
     iconSetting.addEventListener("click", () => {
       localStorage.setItem("selenite.discordIcon", iconSetting.checked)
