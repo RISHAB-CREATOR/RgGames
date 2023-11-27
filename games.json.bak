@@ -6,12 +6,7 @@
     "recommended": "1"
   },
   {
-    "name": "Online Minecraft",
-    "directory": "online-mc",
-    "image": "logo.png"
-  },
-  {
-    "name": "Offline Minecraft",
+    "name": "Minecraft",
     "directory": "offline-mc",
     "image": "logo.png",
     "recommended": "1"
@@ -899,5 +894,70 @@
     "name": "Bloxors",
     "directory": "bloxors",
     "image": "icon.png"
-  }
+  },
+  {
+    "name": "Candy Crush",
+    "directory": "candycrush",
+    "image": "icon.png"
+  },
+  {
+    "name": "Fortnite",
+    "directory": "fortnite",
+    "image": "icon.png"
+  },
+  {
+    "name": "Granny 1",
+    "directory": "granny1",
+    "image": "icon.png"
+  },
+  {
+    "name": "Henry Stickmin: Breaking the Bank",
+    "directory": "henry1",
+    "image": "icon.png"
+  },
+  {
+    "name": "Henry Stickmin: Escaping the Prison",
+    "directory": "henry2",
+    "image": "icon.png"
+  },
+  {
+    "name": "Henry Stickmin: Fleeing the Complex",
+    "directory": "henry3",
+    "image": "icon.png"
+  },
+  {
+    "name": "Henry Stickmin: Infiltrating the Airship",
+    "directory": "henry4",
+    "image": "icon.png"
+  },
+  {
+    "name": "HydroStrom",
+    "directory": "hydrostrom",
+    "image": "icon.png"
+  },
+  {
+    "name": "Jigsaw Puzzle",
+    "directory": "jigsawpuzzle",
+    "image": "icon.png"
+  },
+  {
+    "name": "Krunker.io",
+    "directory": "krunkerio",
+    "image": "icon.png"
+  },
+  {
+    "name": "Ludo",
+    "directory": "ludo",
+    "image": "icon.png"
+  },
+  {
+    "name": "MadTown Andreas",
+    "directory": "madtownandreas",
+    "image": "icon.png"
+  },
+  {
+    "name": "MiniRoyale",
+    "directory": "miniroyale",
+    "image": "icon.png"
+  },
 ]
