@@ -882,7 +882,7 @@
   },
   {
     "name": "Baldi's Basics",
-    "directory": "baldibasic",
+    "directory": "baldibasics",
     "image": "icon.png"
   },
   {
@@ -967,7 +967,7 @@
   },
   {
     "name": "Rally Point",
-    "directory": "rallypoint",
+    "directory": "ralllypoint",
     "image": "icon.png"
   },
   {
