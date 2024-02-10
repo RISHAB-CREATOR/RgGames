@@ -41,7 +41,7 @@ function downloadMainSave() {
 
   var fakeElement = document.createElement("a");
   fakeElement.href = dataURL;
-  fakeElement.download = "your.selenite.save";
+  fakeElement.download = "your.RgAnime.save";
   fakeElement.click();
   URL.revokeObjectURL(dataURL);
 }
