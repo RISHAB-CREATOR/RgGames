@@ -1,7 +1,7 @@
 var s = document.createElement("script");
 function getMainSave() {
   alert(
-    "Thank you for using the Selenite Backup Utility! You can transfer your data to https://selenite.cc or use the Selenite Uploader Utility!"
+    "Thank you for using the RgGames Backup Utility! You can transfer your data to https://RgGames.cc or use the RgGames Uploader Utility!"
   );
   var e = {},
     a = Object.entries(localStorage);
@@ -19,7 +19,7 @@ function downloadMainSave() {
     a = window.URL.createObjectURL(e),
     t = document.createElement("a");
   (t.href = a),
-    (t.download = "your.selenite.save"),
+    (t.download = "your.RgGames.save"),
     t.click(),
     URL.revokeObjectURL(a);
 }
