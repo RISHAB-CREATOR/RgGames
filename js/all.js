@@ -128,7 +128,7 @@ setInterval(() => {
 
 async function checkannouncements() {
   if (!read) {
-    let url = "https://raw.githubusercontent.com/skysthelimitt/selenitestore/main/announcements.json?e=" + Math.floor(Math.random() * 100 ** 5);
+    let url = "https://raw.githubusercontent.com/RISHAB-CREATOR/RgGames/main/announcements.json?e=" + Math.floor(Math.random() * 100 ** 5);
     let headers = { "Cache-Control": "max-age=60" };
     let response = await fetch(url, headers);
 
@@ -165,7 +165,7 @@ function downloadMainSave() {
   var dataURL = URL.createObjectURL(data);
   var fakeElement = document.createElement("a");
   fakeElement.href = dataURL;
-  fakeElement.download = "your.selenite.save";
+  fakeElement.download = "your.RgGames.save";
   fakeElement.click();
   URL.revokeObjectURL(dataURL);
 }
@@ -176,28 +176,28 @@ async function checkblock() {
   let response = await fetch(url, headers);
 
   let data = await response.text();
-  if (!data.startsWith("## Selenite")) {
-    if (confirm("If you have recieved this alert, there is a high chance that your specific URL of Selenite has been blocked, Click OK to download your save and find a new URL.")) {
+  if (!data.startsWith("## RgGames")) {
+    if (confirm("If you have recieved this alert, there is a high chance that your specific URL of RgGames has been blocked, Click OK to download your save and find a new URL.")) {
       downloadMainSave();
-      url = "https://raw.githubusercontent.com/skysthelimitt/selenitestore/main/activelink";
+      url = "https://raw.githubusercontent.com/RISHAB-CREATOR/RgGames/main/activelink";
       response = await fetch(url);
       data = await response.text();
 
       url = data + "/README.md";
       response = await fetch(url);
       readme = await response.text();
-      if (readme.startsWith("## Selenite")) {
+      if (readme.startsWith("## RgGames")) {
         window.location.href = data;
       } else {
         alert("The main link is blocked, click ok to try and find a backup link.");
-        url = "https://raw.githubusercontent.com/skysthelimitt/selenitestore/main/links.json";
+        url = "https://raw.githubusercontent.com/RISHAB-CREATOR/rggames/main/links.json";
         response = await fetch(url);
         data = await response.json();
         console.log(data);
         for (let i = 0; i < data["urls"].length; i++) {
           var check = await fetch(data["urls"][i] + "/README.md");
           var checktext = await check.text();
-          if (checktext.startsWith("## Selenite")) {
+          if (checktext.startsWith("## RgGames")) {
             window.location.href = checktext;
           } else {
             console.log("CDN Blocked: " + data["urls"][i]);
@@ -208,11 +208,11 @@ async function checkblock() {
     }
   }
 }
-if (location.pathname.substring(1).includes("/") && localStorage.getItem("selenite.blockClose") == "true") {
+if (location.pathname.substring(1).includes("/") && localStorage.getItem("RgGames.blockClose") == "true") {
   window.addEventListener("beforeunload", (e) => {e.preventDefault();e.returnValue = '';});
 }
 addEventListener("visibilitychange", (e) => {
-  if(localStorage.getItem("selenite.tabDisguise") == "true") {
+  if(localStorage.getItem("RgGames.tabDisguise") == "true") {
     if (document.visibilityState === 'hidden') {
       setCloak("Google", "https://www.google.com/favicon.ico");
     } else {
@@ -245,6 +245,6 @@ addEventListener("visibilitychange", (e) => {
   }
 
 });
-if(location.pathname != "/vercel.html" && location.hostname.includes(".vercel.app") && (location.hostname.includes("selenite-beta") || location.hostname.includes("space-lovers") || location.hostname.includes("school-education"))) {
+if(location.pathname != "/vercel.html" && location.hostname.includes(".vercel.app") && (location.hostname.includes("RgGames-beta") || location.hostname.includes("space-lovers") || location.hostname.includes("school-education"))) {
   location.pathname = "/vercel.html"
 }
