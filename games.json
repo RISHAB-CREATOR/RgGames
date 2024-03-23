@@ -1004,5 +1004,10 @@
     "name": "Tekken 3",
     "directory": "tekken3",
     "image": "icon.png"
+  },
+  {
+    "name": "PUBG",
+    "directory": "pubg",
+    "image": "icon.png"
   }
 ]
